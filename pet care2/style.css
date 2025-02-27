@@ -1,0 +1,83 @@
+@import url('https://fonts.cdnfonts.com/css/cosima');
+
+                
+body{
+    background-color: #e2f0f6;
+    width: 1024px; 
+    height: 5000000px; 
+    padding: 0%;
+    margin:auto;
+    
+}
+.menu{
+    display: flex;
+    background-color: #ec6e6b;
+    width: 842px;
+    height: 60px;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: monospace;
+    flex-grow: 0;
+    flex-wrap: wrap;
+
+}
+.image{
+    flex-grow: 1;
+}
+.item{
+    color: #e2f0f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+}
+.menu a {
+    text-decoration: none;
+    color: #e2f0f6;
+}
+.bottom{
+    background-color: #8ba8ae;
+    width: 100%;
+    margin-top: 20%;
+    height: 20%;
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+    text-align: center;
+    
+
+}
+p{
+    max-width: 842px;
+    font-family: monospace;
+}
+.hr{
+    height: 150px;
+    display: flex;
+    margin-right: 70%;
+    
+    
+}
+.pick{
+    color: #e2f0f6;
+    flex-direction: column;
+    gap: 2px;
+    padding: 1%;
+    margin-top: 2%;
+    border: #ec6e6b;
+}
+.image2{
+   margin-top: -8%;
+}
+.news{
+   color: #e2f0f6;
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-content: flex-start
+
+}
+
+
